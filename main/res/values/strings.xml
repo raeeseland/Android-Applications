@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TEST</string>
+    <string name="theme">BLUEGREY</string>
+    <string name="app_lang">en</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">shareActivity</string>
+    <string name="title_activity_share_audio">Share Audio</string>
+    <string name="title_activity_record_audio">Record Audio</string>
+    <string name="stop">STOP</string>
+    <string name="title_activity_play_video">Play Video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">Share via Bluetooth</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">Save</string>
+    <string name="enterOwnerNameLabel">Enter Owner Name</string>
+    <string name="ownerNameText">Owner Name</string>
+    <string name="deviceIDText">Device Identifier</string>
+    <string name="enterDeviceIDText">Enter Device Identifier</string>
+    <string name="freeSpaceText">Free Space</string>
+    <string name="sendSelected">Send Selected</string>
+    <string name="sendAll">Send All</string>
+    <string name="videoTab">VIDEOS</string>
+    <string name="audioTab">RECORDINGS</string>
+    <string name="shareAudioTitle">Select Recordings</string>
+    <string name="shareVideoTitle">Select Videos</string>
+    <string name="recordTitle">Record</string>
+    <string name="title_activity_send_logs">empty</string>
+    <string name="novideos">No Videos Found</string>
+    <string name="noRecordings">No Recordings Found</string>
+
+    <string name="dataDirectory">Data Directory</string>
+    <string name="freeSpace">Free Space</string>
+    <string name="bluetooth_not_found">Bluetooth not found</string>
+    <string name="bluetooth_cancelled">Bluetooth Cancelled</string>
+    <string name="not_supported">Bluetooth is not supported on this device</string>
+    <string name="noVideosToSend">No Videos To Send</string>
+    <string name="tapshareVideos">Tap Share Videos</string>
+    <string name="moreTimestoShareVideos">more times to share video files</string>
+    <string name="noRecordingsToSend">No Recordings To Send</string>
+    <string name="tapshareRecordings">Tap Share Audio</string>
+    <string name="moreTimestoShareRecordings">more times to share audio files</string>
+    <string name="noLogsToSend">No Log Files to send</string>
+    <string name="tapshareLogs">Tap Share Log Files</string>
+    <string name="moreTimestoShareLogs">more times to share Log Files</string>
+    <string name="tapSettings">Tap Settings</string>
+    <string name="moreTimestoSettings">more times to open Settings</string>
+    <string name="userDataToast">Enter valid Device Identifier and Owner name</string>
+
+
+
+
+    <!--menu items-->
+    <string name="record">Record</string>
+    <string name="shareAudio">Share Audio</string>
+    <string name="shareVideo">Share Video</string>
+    <string name="shareLogs">Share Log Files</string>
+    <string name="settings">Settings</string>
+</resources>
+    

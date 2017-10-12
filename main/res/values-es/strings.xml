@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">BHO</string>
+    <string name="theme">BLUEGREY</string>
+    <string name="language">en</string>
+    <string name="action_settings">ajustes</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">shareActivity</string>
+    <string name="title_activity_share_audio">enviar audio</string>
+    <string name="title_activity_record_audio">grabar audio</string>
+    <string name="stop">DETENER</string>
+    <string name="title_activity_play_video">reproduce el video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">Enviar por Bluetooth</string>
+    <string name="title_activity_settings">ajustes</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">Aplicar</string>
+    <string name="enterOwnerNameLabel">introducir el nombre del propietario</string>
+    <string name="ownerNameText">nombre del propietario</string>
+    <string name="deviceIDText">identificador de dispositivo</string>
+    <string name="enterDeviceIDText"> introducir identificador de dispositivo</string>
+    <string name="freeSpaceText">Espacio libre</string>
+    <string name="sendSelected">enviar elegido</string>
+    <string name="sendAll">Envia todo</string>
+    <string name="videoTab">VIDEOS</string>
+    <string name="audioTab"> GRABACIONES</string>
+    <string name="shareAudioTitle">selectas grabaciones</string>
+    <string name="shareVideoTitle">seleccione vídeos</string>
+    <string name="recordTitle">Grabar</string>
+    <string name="title_activity_send_logs">vacío</string>
+    <string name="novideos">No se encontraron vídeos</string>
+    <string name="noRecordings">No hay grabaciones encontradas</string>
+
+    <string name="dataDirectory">Directorio de datos</string>
+    <string name="freeSpace">Espacio libre</string>
+    <string name="bluetooth_not_found">Bluetooth no encontrado</string>
+    <string name="bluetooth_cancelled">Bluetooth Cancelado</string>
+    <string name="not_supported">Bluetooth no es compatible con este dispositivo</string>
+    <string name="noVideosToSend">No hay vídeos Para Enviar</string>
+    <string name="tapshareVideos">Toque de Acciones Videos</string>
+    <string name="moreTimestoShareVideos">más veces para compartir archivos de vídeo</string>
+    <string name="noRecordingsToSend">No hay grabaciones que se enviarán</string>
+    <string name="tapshareRecordings">Toque Compartir Audio</string>
+    <string name="moreTimestoShareRecordings">más veces para compartir archivos de audio</string>
+    <string name="noLogsToSend">No hay archivos de registro para enviar</string>
+    <string name="tapshareLogs">Pulse Compartir archivos de registro</string>
+    <string name="moreTimestoShareLogs">más veces para compartir archivos de registro</string>
+    <string name="tapSettings">Pulsa Ajustes</string>
+    <string name="moreTimestoSettings">más veces para abrir la configuración de</string>
+    <string name="userDataToast">Introduzca identificador de dispositivo válido y nombre del propietario</string>
+
+    <!--menu items-->
+    <string name="record">Grabar</string>
+    <string name="shareAudio">proporción de audio</string>
+    <string name="shareVideo">enviar vídeo</string>
+    <string name="shareLogs"> enviar archivo de registro</string>
+    <string name="settings">ajustes</string>
+</resources>
+    

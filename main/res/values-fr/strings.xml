@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BHO</string>
+    <string name="theme">BLUEGREY</string>
+    <string name="language">en</string>
+    <string name="action_settings"> Réglages</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">shareActivity</string>
+    <string name="title_activity_share_audio">Share Audio</string>
+    <string name="title_activity_record_audio">enregistrement audio</string>
+    <string name="stop">Arrêtez</string>
+    <string name="title_activity_play_video">lire la vidéo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">envoyer par Bluetooth</string>
+    <string name="title_activity_settings">Réglages</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">mettre en application</string>
+    <string name="enterOwnerNameLabel">entrez le nom du propriétaire</string>
+    <string name="ownerNameText">le nom du propriétaire</string>
+    <string name="deviceIDText">identificateur de dispositif</string>
+    <string name="enterDeviceIDText">entrez identifiant de l\'appareil</string>
+    <string name="freeSpaceText">Free Space</string>
+    <string name="sendSelected">   Send Selected   </string>
+    <string name="sendAll">        Send ALL        </string>
+    <string name="videoTab">VIDÉOS</string>
+    <string name="audioTab">ENREGISTREMENTS</string>
+    <string name="shareAudioTitle">choisissez audio</string>
+    <string name="shareVideoTitle">choisissez la vidéo</string>
+    <string name="recordTitle">Record</string>
+    <string name="title_activity_send_logs">empty</string>
+    <string name="novideos">No Videos Found in frecnh</string>
+    <string name="noRecordings">No Recordings Found in frecnh</string>
+    <string name="userDataToast">Entrez l\'identificateur de périphérique valide et le nom du propriétaire</string>
+
+    <!--menu items-->
+    <string name="record">Record</string>
+    <string name="shareAudio">envoyer de l\'audio</string>
+    <string name="shareVideo">envoyer de la vidéo</string>
+    <string name="shareLogs"> envoyer des fichiers journaux</string>
+    <string name="settings">Réglages</string>
+</resources>
+    

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">BHO</string>
+    <string name="theme">BLUEGREY</string>
+    <string name="action_settings">Meralong</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">Romella</string>
+    <string name="title_activity_share_audio">Romella Ripoto</string>
+    <string name="title_activity_record_audio">RecordAudioActivity</string>
+    <string name="stop">Penya Mona Ha U Qetile Ho Bua Ripoto</string>
+    <string name="title_activity_play_video">PlayVideoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="title_activity_settings">Meralong</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">Boloka</string>
+    <string name="enterOwnerNameLabel">Kena Name Owner</string>
+    <string name="ownerNameText">Name mong\'a</string>
+    <string name="deviceIDText">go utolla sesebediswa</string>
+    <string name="enterDeviceIDText">Kena mochine go utolla</string>
+    <string name="freeSpaceText">Free Space</string>
+    <string name="sendSelected">romela Selected</string>
+    <string name="sendAll"> romela TSOHLE</string>
+    <string name="videoTab">VIDEOS</string>
+    <string name="audioTab">Lethathamo La Liripoto</string>
+    <string name="shareAudioTitle">Khetha ripoto</string>
+    <string name="shareVideoTitle">Khetha Videos</string>
+    <string name="recordTitle">Record</string>
+    <string name="title_activity_send_logs">empty</string>
+    <string name="novideos">No Videos Fumane</string>
+    <string name="noRecordings">No rekotiloeng Fumane</string>
+
+    <string name="dataDirectory">Data Directory</string>
+    <string name="freeSpace">Free Space</string>
+    <string name="bluetooth_not_found">Bluetooth ha le a fumanwa</string>
+    <string name="bluetooth_cancelled">Bluetooth Cancelled</string>
+    <string name="not_supported">Bluetooth e sa tšehetsoa ka sesebelisoa sena</string>
+    <string name="noVideosToSend">No Videos Ho Romela</string>
+    <string name="tapshareVideos">Tlanya Share Videos</string>
+    <string name="moreTimestoShareVideos">ho eketsehileng ka makhetlo ho kopanela difaele tsa video</string>
+    <string name="noRecordingsToSend">No rekotiloeng Ho Romela</string>
+    <string name="tapshareRecordings">Tlanya Share Audio</string>
+    <string name="moreTimestoShareRecordings">ho eketsehileng ka makhetlo ho kopanela difaele mamelwang</string>
+    <string name="noLogsToSend">No Log Files ho romela</string>
+    <string name="tapshareLogs">Tlanya Share Log Files</string>
+    <string name="moreTimestoShareLogs">ho eketsehileng ka makhetlo ho kopanela Log Files</string>
+    <string name="tapSettings">tlanya Settings</string>
+    <string name="moreTimestoSettings">ho eketsehileng ka makhetlo ho bula Settings</string>
+    <string name="userDataToast">Kena a utloahalang mochine go utolla \'me lebitso la Owner</string>
+
+    <!--menu items-->
+    <string name="record">Penya Mona Ho Qala Ho Bua Ripoto</string>
+    <string name="shareAudio">Romella Ripoto</string>
+    <string name="shareVideo">Romella Video</string>
+    <string name="shareLogs">Share Log Files</string>
+    <string name="settings">Meralong</string>
+</resources>
+    

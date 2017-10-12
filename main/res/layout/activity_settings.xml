@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.raees.bho.SettingsActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idHeading"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:text="@string/deviceIDText"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deviceID"
+            android:hint="@string/enterDeviceIDText"
+            android:background="@color/white"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/idHeading"
+            android:paddingLeft="10dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ownerNameText"
+            android:id="@+id/nameHeading"
+            android:layout_below="@+id/deviceID"
+            android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:inputType="textPersonName"
+            android:hint="@string/enterOwnerNameLabel"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/nameHeading"
+            android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:layout_gravity="top"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/storagePath"
+            android:layout_below="@+id/userName"
+            android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/freeSpace"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/storagePath"
+            android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:layout_below="@+id/freeSpace"
+            android:paddingLeft="10dp"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:text="@string/saveButtonText"
+            android:onClick="onSavePress"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+</RelativeLayout>

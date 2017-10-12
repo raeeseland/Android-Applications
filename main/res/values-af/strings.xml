@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Gesondheid vir my dorpie</string> <!--health for my village-->
+    <string name="theme">BLUEGREY</string>
+    <string name="action_settings">Instellings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">Deel</string>
+    <string name="title_activity_share_audio">Deel Stemopname</string>
+    <string name="title_activity_record_audio">RecordAudioActivity</string>
+    <string name="stop">STOP</string>
+    <string name="title_activity_play_video">Speel Video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">Deel met Bluetooth</string>
+    <string name="title_activity_settings">Instellings</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">Toepas</string>
+    <string name="enterOwnerNameLabel">Tik eienaar se naam</string>
+    <string name="ownerNameText">Eienaar se naam</string>
+    <string name="deviceIDText">Foon naam</string>
+    <string name="enterDeviceIDText">Tik foon naam</string>
+    <string name="freeSpaceText">Vry spasie</string>
+    <string name="sendSelected">   Stuur gekiesde   </string>
+    <string name="sendAll">        Stuur Alles        </string>
+    <string name="videoTab">VIDEO\'S</string>
+    <string name="audioTab">STEMOPNAME</string>
+    <string name="shareAudioTitle">Kies Opname</string>
+    <string name="shareVideoTitle">Kies Video\'s</string>
+    <string name="recordTitle">Record</string>
+    <string name="title_activity_send_logs">empty</string>
+    <string name="novideos">Geen video\'s gefind nie</string>
+    <string name="noRecordings">Geen stemopname gefind nie</string>
+    <string name="userDataToast">Voer \'n geldige identifiseerder toestel en eienaar naam</string>
+
+    <!--menu items-->
+    <string name="record">Record</string>
+    <string name="shareAudio">Deel stemopname</string>
+    <string name="shareVideo">Deel video</string>
+    <string name="shareLogs">Deel rekorde</string>
+    <string name="settings">Instellings</string>
+
+</resources>
+    

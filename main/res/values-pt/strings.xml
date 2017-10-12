@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BHO</string>
+    <string name="theme">BLUEGREY</string>
+    <string name="language">en</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_share">shareActivity</string>
+    <string name="title_activity_share_audio">Compartilhe audio</string>
+    <string name="title_activity_record_audio">Gravar audio</string>
+    <string name="stop">PARE</string>
+    <string name="title_activity_play_video">Play video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bluetooth">Share via Bluetooth</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="extention">CHW_</string>
+    <string name="saveButtonText">Salvar</string>
+    <string name="enterOwnerNameLabel">Insira o Nome do proprietário</string>
+    <string name="ownerNameText">Nome do proprietário</string>
+    <string name="deviceIDText">Device Identifier</string>
+    <string name="enterDeviceIDText">Enter Device Identifier</string>
+    <string name="freeSpaceText">Espaço livre</string>
+    <string name="sendSelected">   Enviar Selecionado   </string>
+    <string name="sendAll">        Envie todos        </string>
+    <string name="videoTab">VIDEOS</string>
+    <string name="audioTab">GRAVAÇÕES</string>
+    <string name="shareAudioTitle">Seleccione Gravações</string>
+    <string name="shareVideoTitle">Selecione Vídeos</string>
+    <string name="recordTitle">Registro</string>
+    <string name="title_activity_send_logs">empty</string>
+    <string name="novideos">Nenhum vídeo encontrado</string>
+    <string name="noRecordings">Não Recordings Encontrado</string>
+    <string name="userDataToast">Insira o identificador de dispositivo válido e nome do proprietário</string>
+    <!--menu items-->
+    <string name="record">Registro</string>
+    <string name="shareAudio">Compartilhe audio</string>
+    <string name="shareVideo">Compartilhar video</string>
+    <string name="shareLogs">Compartilhar arquivos de log</string>
+    <string name="settings">Configurações</string>
+</resources>
+    

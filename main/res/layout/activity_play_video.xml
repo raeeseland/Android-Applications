@@ -1,0 +1,151 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.raees.bho.PlayVideoActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <FrameLayout
+        android:id="@+id/videoFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:fitsSystemWindows="true"
+        android:onClick="videoPressed">
+
+
+
+        <VideoView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="The video"
+            android:gravity="center"
+            android:keepScreenOn="true" />
+        <!--android:src="@drawable/placeholder"-->
+        <!--android:text="@string/dummy_content"-->
+        <!--android:textColor="#33b5e5"-->
+        <!--android:textSize="50sp"-->
+        <!--android:textStyle="bold" All removed from above when changing from ImageView to VideoView-->
+
+        <ImageView
+            android:id="@+id/placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="placeholder for audio"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:src="@drawable/speaker"
+            android:visibility="invisible" />
+
+
+        <RelativeLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            <!--style="metaButtonBarStyle" removed from above-->
+
+            <!--Play button-->
+            <ImageButton
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="left"
+                android:contentDescription="play"
+                android:drawable="@android:color/secondary_text_dark"
+                android:onClick="play"
+                android:src="@drawable/play" />
+
+            <!--Pause button-->
+            <ImageButton
+                android:id="@+id/pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:contentDescription="pause"
+                android:drawable="@android:color/secondary_text_light"
+                android:onClick="pause"
+                android:src="@drawable/pause" />
+
+            <!--Bluetooth button-->
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:contentDescription="share via bluetooth"
+                android:drawable="@android:color/secondary_text_dark"
+                android:onClick="share"
+                android:src="@drawable/bluetooth" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/volumeControls"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/ear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/volumeBar"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="top|right"
+                android:background="@drawable/abc_cab_background_internal_bg"
+                android:contentDescription="Picture of an ear"
+                android:src="@drawable/big_ear" />
+
+            <com.example.raees.bho.VerticalSeekBar
+                android:id="@+id/volumeBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:progress="50" />
+
+        </RelativeLayout>
+
+
+        <!--Video progress bar-->
+        <SeekBar
+            android:id="@+id/videoProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="60dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:backgroundTint="@color/accent_material_light"
+            android:backgroundTintMode="src_over" />
+
+        <!--Volume control bar-->
+
+    </FrameLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>
